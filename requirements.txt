@@ -1,0 +1,18 @@
+# ─── Core ─────────────────────────────────────────────────────────────────────
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# ─── UI / Dashboard ───────────────────────────────────────────────────────────
+streamlit>=1.30.0
+pygame>=2.5.0          # optional: use pygame-based visualiser instead
+
+# ─── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+plotly>=5.18.0
+
+# ─── AirSim (install separately from Microsoft; pip package is the Python client)
+# airsim>=1.8.1        # Uncomment when AirSim / UE4 is running
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+pillow>=10.0.0
+pandas>=2.0.0
